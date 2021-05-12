@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./js/memory.js"></script>
+    <script src="./js/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Bank Service</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <span
+          style="font-size: 1rem; color: black; margin-right: 2%"
+          class="nameField"
+          id="nameField"
+          >Name</span
+        >
+        <span
+          style="font-size: 1rem; color: black; margin-right: 2%"
+          class="lastNameField"
+          id="lastNameField"
+          >LastName</span
+        >
+        <img
+          id="profileImg"
+          style="border-radius: 25px; width: 50px; height: 50px"
+          alt=""
+        />
+      </header>
+      <div id="customers"></div>
+      <div class="customer-modal show" id="customer-modal">
+        <div style="position: relative"></div>
+      </div>
+    </div>
+  </body>
+</html>
